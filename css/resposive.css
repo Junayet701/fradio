@@ -1,0 +1,183 @@
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #introduction_part {
+    padding-right: 0; }
+
+  .btn_bar {
+    top: 15px;
+    right: 45px; }
+
+  .intro h2 {
+    padding: 20px 23px; }
+
+  .intro_text_head {
+    padding: 7px 27px; }
+
+  .intro_text_head h1 {
+    font-size: 25px; } }
+@media (max-width: 575px) {
+  #header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9999;
+    background: #252726d7;
+    opacity: 0; }
+
+  .btn_bar {
+    position: absolute;
+    content: "";
+    top: 15px;
+    right: 14px;
+    opacity: 1; }
+
+  #introduction_part {
+    padding-right: 0px; }
+
+  .intro h2 {
+    padding: 20px 19px; }
+
+  .intro h2 i {
+    padding-right: 4px; }
+
+  .intro_text_head h1 {
+    font-size: 28px; }
+
+  .intro_text_head {
+    padding: 10px 15px; }
+
+  .intro_text_head p {
+    padding: 0px;
+    font-size: 14px; }
+
+  .intro_text_inner {
+    padding: 12px 10px; }
+
+  .intro_text_inner p {
+    padding-top: 10px;
+    font-size: 12px; }
+
+  .intro_text_inner p span {
+    font-size: 32px; }
+
+  #requre_part {
+    padding: 0px 0;
+    padding-right: 0px; }
+
+  .requre_text h3 {
+    padding: 5px 11px;
+    font-size: 17px; }
+
+  .requre_text h2 {
+    padding: 1px 10px;
+    font-size: 29px; }
+
+  .requre_text h4 {
+    padding-left: 10px;
+    font-size: 16px;
+    padding-top: 0px; }
+
+  .requre_text h5 {
+    padding-left: 15px;
+    padding-right: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 7px;
+    font-family: 'Montserrat', sans-serif; }
+
+  #android_part {
+    padding-right: 0px; }
+
+  .intro h2 {
+    padding: 20px 15px; }
+
+  #android_part .android_content {
+    padding: 0px 10px; }
+
+  #android_part .android_content h2 {
+    font-size: 27px; }
+
+  #android_part .android_content ol {
+    padding: 0px 11px; }
+
+  #android_part .android_content ol li {
+    font-size: 16px; }
+
+  #android_part .android_content h2 {
+    font-size: 22px; }
+
+  #android_part .android_content .next_ol li ul li {
+    font-size: 9px; }
+
+  #android_part .android_content ol li {
+    font-size: 11px; }
+
+  #ios_part {
+    padding-right: 0; }
+
+  #ios_part .ios_content {
+    padding: 2px 5px; }
+
+  #ios_part .ios_content h2 {
+    font-size: 26px; }
+
+  ol, ul {
+    padding-left: 1rem; }
+
+  #ios_part .ios_content .next_ol li ul li {
+    font-size: 10px; }
+
+  #run_part {
+    padding-right: 0; }
+
+  #run_part .run_content {
+    padding: 0px 7px; }
+
+  #run_part .run_content h2 {
+    font-size: 21px; }
+
+  #run_part .run_content ol li {
+    padding: 0px 0; }
+
+  #run_part .run_content ol li img {
+    margin-top: 17px;
+    width: -moz-available; }
+
+  #Install_part {
+    padding-right: 0; }
+
+  #Install_part .install_content {
+    padding: 0px 7px; }
+
+  #Install_part .install_content h2 {
+    font-size: 22px; }
+
+  #Install_part .install_content ol li {
+    padding: 0px 0; }
+
+  #Install_part .install_content ol li p {
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    border: 1px solid #70706e;
+    background: #F4F2F2;
+    padding: 7px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif; }
+
+  #sup_part {
+    padding-right: 0; }
+
+  #sup_part .sup_content {
+    padding: 0px 7px; }
+
+  #sup_part .sup_content h4 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: none;
+    margin: 9px 0px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif; } }
+
+/*# sourceMappingURL=resposive.css.map */

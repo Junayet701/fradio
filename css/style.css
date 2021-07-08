@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+#header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background: #FF702C; }
+  #header ::after {
+    position: absolute;
+    content: "";
+    left: -2px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #f1f1f1; }
+  #header .profile img {
+    margin: 15px auto;
+    display: block;
+    width: 130px;
+    height: 130px;
+    border: 8px solid #4b8f5c;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; }
+  #header .profile h1 {
+    padding: 5px 0;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif; }
+  #header .social {
+    padding: 10px 10px;
+    text-align: center; }
+    #header .social a {
+      padding: 9px 9px;
+      margin: 5px 5px;
+      background: #4d3b3b;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%; }
+      #header .social a i {
+        color: #fff;
+        font-size: 22px; }
+  #header .navbar ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif; }
+    #header .navbar ul li a i {
+      padding: 0 4px; }
+
+#header .navbar ul li a:hover {
+  color: #58f03a; }
+
+.btn_bar {
+  position: absolute;
+  content: "";
+  top: 15px;
+  right: 310px; }
+
+#about_part {
+  margin-left: 301px; }
+  #about_part .abtimg h3 {
+    color: red;
+    position: relative;
+    text-transform: capitalize; }
+  #about_part ::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 4px;
+    background: green;
+    border: 2px solid saddlebrown;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s; }
+  #about_part :hover ::after {
+    width: 75px; }
+
+.side_menu ul li a i {
+  margin-right: 10px; }
+
+.side_menu ul li a {
+  color: #e73c3c; }
+
+/* introduction part start */
+#introduction_part {
+  padding-right: 301px; }
+
+.intro {
+  background: #FF702C; }
+
+.intro h2 {
+  padding: 20px 80px;
+  text-transform: capitalize;
+  color: #ffffff; }
+
+.intro h2 i {
+  padding-right: 10px; }
+
+.intro_text {
+  background: #ffffff; }
+
+.intro_text_head {
+  padding: 10px 80px;
+  text-transform: capitalize;
+  position: relative; }
+
+.intro_text_head h1 {
+  color: #FE3A27;
+  font-size: 38px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif; }
+
+.intro_text_head p {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif; }
+
+.intro_text_head::after {
+  position: absolute;
+  content: '';
+  bottom: 40;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #bbaeae; }
+
+.intro_text_inner {
+  padding: 30px 80px; }
+
+.intro_text_inner h2, a {
+  text-transform: capitalize; }
+
+.intro_text_inner h2 span {
+  color: #f03f3f; }
+
+.intro_text_inner p {
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif; }
+
+.intro_text_inner p span {
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif; }
+
+/* introduction part end */
+/* requre_part start */
+#requre_part {
+  padding: 50px 0;
+  padding-right: 301px; }
+  #requre_part .intro {
+    background: #FF702C; }
+
+.requre_text h3 {
+  padding: 20px 85px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif; }
+
+.requre_text h3 a {
+  padding: 0 10px; }
+
+.requre_text h2 {
+  padding: 10px 85px;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif; }
+
+.requre_text h4 {
+  padding-left: 80px;
+  /* padding-right: 30px; */
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif; }
+
+.requre_text h4 span {
+  color: #e73c3c; }
+
+.requre_text h5 {
+  padding-left: 80px;
+  padding-right: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif; }
+
+.requre_text h5 span {
+  background: #B4B2B2; }
+
+/* requre_part end */
+/* android-part start */
+#android_part {
+  padding-right: 301px; }
+  #android_part .intro {
+    background: #FF702C; }
+  #android_part .android_content {
+    padding: 10px 85px; }
+    #android_part .android_content h2 {
+      font-size: 40px;
+      font-weight: 600;
+      text-transform: capitalize;
+      font-family: 'Montserrat', sans-serif; }
+    #android_part .android_content ol {
+      padding: 5px 66px; }
+      #android_part .android_content ol li {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 40px;
+        font-family: 'Montserrat', sans-serif; }
+      #android_part .android_content ol p {
+        font-size: 16px;
+        font-weight: 400;
+        display: block;
+        border: 1px solid #70706e;
+        background: #F4F2F2;
+        padding: 12px;
+        margin-top: 17px;
+        font-family: 'Montserrat', sans-serif; }
+    #android_part .android_content .next_ol li ul {
+      background: #F0F0F0;
+      list-style: square;
+      margin: 27px 0; }
+      #android_part .android_content .next_ol li ul li {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif; }
+    #android_part .android_content .next_ol li span {
+      background: #B4B2B2; }
+
+#ios_part {
+  padding-right: 301px; }
+  #ios_part .intro {
+    background: #FF702C; }
+  #ios_part .ios_content {
+    padding: 10px 85px; }
+    #ios_part .ios_content h2 {
+      font-size: 40px;
+      font-weight: 600;
+      text-transform: capitalize;
+      font-family: 'Montserrat', sans-serif; }
+    #ios_part .ios_content .next_ol li ul {
+      background: #F0F0F0;
+      list-style: square;
+      margin: 27px 0;
+      line-height: 28px; }
+      #ios_part .ios_content .next_ol li ul li {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif; }
+    #ios_part .ios_content .next_ol li span {
+      background: #B4B2B2; }
+
+#run_part {
+  padding-right: 301px; }
+  #run_part .intro {
+    background: #FF702C; }
+  #run_part .run_content {
+    padding: 10px 85px; }
+    #run_part .run_content h2 {
+      font-size: 40px;
+      font-weight: 600;
+      text-transform: capitalize;
+      font-family: 'Montserrat', sans-serif; }
+    #run_part .run_content ol li {
+      padding: 10px 0; }
+      #run_part .run_content ol li p {
+        font-size: 16px;
+        font-weight: 400;
+        display: block;
+        border: 1px solid #70706e;
+        background: #F4F2F2;
+        padding: 12px;
+        margin-top: 17px;
+        font-family: 'Montserrat', sans-serif; }
+      #run_part .run_content ol li img {
+        margin-top: 17px; }
+
+#Install_part {
+  padding-right: 301px; }
+  #Install_part .intro {
+    background: #FF702C; }
+  #Install_part .install_content {
+    padding: 10px 85px; }
+    #Install_part .install_content h2 {
+      font-size: 40px;
+      font-weight: 600;
+      text-transform: capitalize;
+      font-family: 'Montserrat', sans-serif; }
+    #Install_part .install_content ol li {
+      padding: 10px 0; }
+      #Install_part .install_content ol li p {
+        font-size: 16px;
+        font-weight: 400;
+        display: block;
+        border: 1px solid #70706e;
+        background: #F4F2F2;
+        padding: 12px;
+        margin-top: 17px;
+        font-family: 'Montserrat', sans-serif; }
+      #Install_part .install_content ol li h6 span {
+        background: #B4B2B2; }
+      #Install_part .install_content ol li ul {
+        font-size: 16px;
+        font-weight: 400;
+        display: block;
+        border: 1px solid #70706e;
+        background: #F4F2F2;
+        padding: 12px;
+        margin-top: 17px;
+        font-family: 'Montserrat', sans-serif; }
+
+#sup_part {
+  padding-right: 301px; }
+  #sup_part .intro {
+    background: #FF702C; }
+  #sup_part .sup_content {
+    padding: 10px 85px; }
+    #sup_part .sup_content h4 {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: none;
+      margin: 20px 0px;
+      text-align: justify;
+      font-family: 'Montserrat', sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
